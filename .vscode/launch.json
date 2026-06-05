@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run JavaFX App",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "SportClub_12e82e56",
+            "vmArgs": "--module-path \"D:\\Users\\SKYMIL\\Downloads\\javaFx\\javafx-sdk-21.0.11\\lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
