@@ -34,8 +34,11 @@ public class ActiviteController {
 
     // Supprime une activité par son id
     public void supprimerActivite(int id) {
-        activiteDAO.supprimer(id);
-    }
+    // ── Supprimer toutes les inscriptions liées à cette activité ──────────
+    inscriptionDAO.getParActivite(id).forEach(i -> inscriptionDAO.supprimer(i.getId()));
+    // ── Puis supprimer l'activité elle-même ───────────────────────────────
+    activiteDAO.supprimer(id);
+}
 
     // Calcule les places restantes d'une activité
     public int getPlacesRestantes(int activiteId) {

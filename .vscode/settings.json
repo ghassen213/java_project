@@ -11,6 +11,11 @@
         "lib\\javafx.media.jar",
         "lib\\javafx.swing.jar",
         "lib\\javafx.web.jar",
-        "lib\\javafx-swt.jar"
-    ]
+        "lib\\javafx-swt.jar",
+        "d:\\Users\\SKYMIL\\Downloads\\javaFx\\javafx-sdk-21.0.11\\lib\\itextpdf-5.5.13.5.jar",
+        "d:\\Users\\SKYMIL\\Downloads\\javaFx\\javafx-sdk-21.0.11\\lib\\itext-pdfa-5.5.13.5.jar",
+        "d:\\Users\\SKYMIL\\Downloads\\javaFx\\javafx-sdk-21.0.11\\lib\\itext-xtra-5.5.13.5.jar",
+        "d:\\Users\\SKYMIL\\Downloads\\javaFx\\javafx-sdk-21.0.11\\lib\\xmlworker-5.5.13.5.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
